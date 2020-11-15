@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/addExerciseRowName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xD"
+            ></TextView>
+        <TextView
+            android:id="@+id/addExerciseRowSets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xD"
+            ></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="xD"
+        android:layout_weight="0.4"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/addExerciseRowMuscle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xD"
+            ></TextView>
+        <TextView
+            android:id="@+id/addExerciseRowReps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xD"
+            ></TextView>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/addExerviseToWorkout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/baseline_add_black_48dp"
+        android:layout_weight="0.2"></Button>
+
+</LinearLayout>

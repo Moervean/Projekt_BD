@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/messages"
+        android:id="@+id/protegeMainMessages"
+        android:icon="@drawable/baseline_email_black_48dp"
+        app:showAsAction="ifRoom"
+        >
+
+    </item>
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projekt_bd">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="UserActivities.UserWorkoutsListActivity"></activity>
+        <activity android:name="CoachActivities.AddWorkoutToProtegeActivity" />
+        <activity android:name="UserActivities.CoachesListActivity" />
+        <activity android:name="UserActivities.CheckMessagesActivity" />
+        <activity android:name="UserActivities.ShowDietActivity" />
+        <activity android:name="CoachActivities.AddDietToProtegeActivity" />
+        <activity android:name="CoachActivities.AddPostActivity" />
+        <activity android:name="CoachActivities.CoachProfileActivity" />
+        <activity android:name="CoachActivities.AddMealToDietActivity" />
+        <activity android:name="CoachActivities.EditDietActivity" />
+        <activity android:name="CoachActivities.DietListActivity" />
+        <activity android:name="CoachActivities.SendMailActivity" />
+        <activity android:name="CoachActivities.ProtegesListActivity" />
+        <activity android:name="CoachActivities.AddExerciseToWorkoutActivity" />
+        <activity android:name="CoachActivities.EditWorkoutActivity" />
+        <activity android:name="CoachActivities.WorkoutsListActivity" />
+        <activity android:name="CoachActivities.ShowDietsListActivity" />
+        <activity android:name="CoachActivities.AddExerciseActivity" />
+        <activity android:name="UserActivities.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="CoachActivities.AddMealActivity" />
+        <activity android:name="CoachActivities.CoachLoginActivity" />
+        <activity android:name="UserActivities.ProtegeLoginActivity" />
+        <activity android:name="UserActivities.ProtegeMainScreenActivity" />
+        <activity android:name="CoachActivities.CoachMainScreenActivity" />
+        <activity android:name="UserActivities.MainActivity" />
+    </application>
+
+</manifest>
